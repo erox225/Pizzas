@@ -1,0 +1,84 @@
+.cliente-container {
+    background-color: #111;
+    color: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .cliente-header {
+    height: 150px;
+    background-image: url('https://images.unsplash.com/photo-1604908177522-f6a5c8a137d7');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .menu-button,
+  .cart-button {
+    width: 40px;
+    height: 40px;
+    background: #e11d48;
+    color: white;
+    font-size: 20px;
+    border-radius: 9999px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-wrapper {
+    position: relative;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: yellow;
+    color: black;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .pizzas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .pizza-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .pizza-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pizza-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pizza-prices p {
+    font-size: 0.875rem;
+    margin: 0.25rem 0;
+  }
